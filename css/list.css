@@ -45,7 +45,9 @@
     font-family:'DejaVu Sans',Arial, sans-serif,'w黑体';
 }
 .article-list .list-entry{
-    overflow: auto;
+    _height:135px;
+    overflow: auto !important;
+    overflow: hidden;
     padding-top:20px;
     padding-bottom:20px;
     border-bottom:1px solid #1e1e99;
